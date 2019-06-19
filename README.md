@@ -21,12 +21,14 @@ Per dati particolarmente densi, potrebbe essere necessario selezionare un divers
 * Settare il tipo di file che si vuole scaricare.
 * in console js
 
-```var jqry = document.createElement('script');
-jqry.src = "https://cdn.jsdelivr.net/gh/fdrcslv/GPDjs@1.1/dist/downloader.js";
-document.getElementsByTagName('head')[0].appendChild(jqry);
+```
+var gpdjs = document.createElement('script');
+gpdjs.src = "https://cdn.jsdelivr.net/gh/fdrcslv/GPDjs@1.1/dist/downloader.js";
+document.getElementsByTagName('head')[0].appendChild(gpdjs);
 ```
 * premere INVIO per linkare lo script alla pagina, e digitare
-``` Download();
+``` 
+Download();
 ```
 * INVIO, Enjoy
 
