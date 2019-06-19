@@ -28,11 +28,10 @@ Download();
 * NON interagire con la pagina
 
 
-## Versione
-1.1
+## Versione 1.1
 * Download per Unità Urbanistiche
 * Progress Bar
 * CDN
 
 ### Note
-la maggior parte dei menu viene richiamata ogni volta tramite ajax,è stato quindi necessario introdurre una serie di delay alle operazioni per potereseguire lo script. Risultato: è lento.
+la maggior parte dei menu viene richiamata ogni volta tramite ajax, è stato quindi necessario introdurre una serie di delay alle operazioni per potereseguire lo script. Risultato: è lento.
