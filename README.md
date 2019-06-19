@@ -17,7 +17,7 @@ var gpdjs = document.createElement('script');
 gpdjs.src = "https://cdn.jsdelivr.net/gh/fdrcslv/GPDjs@1.1/dist/downloader.js";
 document.getElementsByTagName('head')[0].appendChild(gpdjs);
 ```
-* premere INVIO per linkare lo script alla pagina, e digitare
+premere INVIO per linkare lo script alla pagina, e digitare
 ``` 
 Download();
 ```
