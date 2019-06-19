@@ -19,9 +19,16 @@ Per dati particolarmente densi, potrebbe essere necessario selezionare un divers
 * Popolare la mappa del geoportale con il layer desiderato.
 * aprire il menù Layers, e cliccare su "open attribute Table"
 * Settare il tipo di file che si vuole scaricare.
-* Copiare e incollare tutto lo script nella console Js del browser (testato su Chrome)
-* premere INVIO
-* Enjoy
+* in console js
+
+```var jqry = document.createElement('script');
+jqry.src = "https://cdn.jsdelivr.net/gh/fdrcslv/GPDjs@1.1/dist/downloader.js";
+document.getElementsByTagName('head')[0].appendChild(jqry);
+```
+* premere INVIO per linkare lo script alla pagina, e digitare
+``` Download();
+```
+* INVIO, Enjoy
 
 ## Avvertenze
 * NON chiuedere la finestra del browser
