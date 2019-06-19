@@ -23,6 +23,10 @@
 * eseguire lo script. Risultato: è lento.
 */
 
+
+
+function Download(mode, etc){
+
 // importare Jquery
 var jqry = document.createElement('script');
 jqry.src = "https://code.jquery.com/jquery-3.3.1.min.js";
@@ -166,10 +170,9 @@ function TimerQueue(){
 
   scheduler = new TimerQueue();
   imnotarobot();
-  for (var q in queue){
-    scheduler.addTask(queue[q][0],queue[q][1]);
+  for (var qq in queue){
+    scheduler.addTask(queue[qq][0],queue[qq][1]);
   }
-
   function progress_bar(message, now){
     console.log(message.length);
     var tot = 71 + 1;
@@ -183,3 +186,4 @@ function TimerQueue(){
     console.log(bar);
     console.log('-'.repeat(title_und1) + message + '-'.repeat(title_und2));
   }
+}
