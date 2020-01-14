@@ -31,10 +31,9 @@ function Download(startindex){
 var jqry = document.createElement('script');
 jqry.src = "https://code.jquery.com/jquery-3.3.1.min.js";
 document.getElementsByTagName('head')[0].appendChild(jqry);
-startindex = (startindex ? 1 : startindex);
+startindex = (startindex ? startindex : 1);
 queue = [];
 counter = startindex;
-
 var q = function(){
   progress_bar('START', counter);
   $('#fg-search').click();
