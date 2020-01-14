@@ -14,7 +14,7 @@ Per dati particolarmente densi, potrebbe essere necessario selezionare un divers
 In console js, copia incolla il codice
 ```
 var gpdjs = document.createElement('script');
-gpdjs.src = "https://cdn.jsdelivr.net/gh/fdrcslv/GPDjs@v1.3/dist/downloader.js";
+gpdjs.src = "https://cdn.jsdelivr.net/gh/fdrcslv/GPDjs@v1.3.2/dist/downloader.js";
 document.getElementsByTagName('head')[0].appendChild(gpdjs);
 ```
 premere INVIO per linkare lo script alla pagina, e digitare
