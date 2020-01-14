@@ -185,5 +185,7 @@ function TimerQueue(){
     console.clear();
     console.log(bar);
     console.log('-'.repeat(title_und1) + message + '-'.repeat(title_und2));
+    console.log('-'.repeat(title_und1) + startindex + '-'.repeat(title_und2));
+    console.log('-'.repeat(title_und1) + counter + '-'.repeat(title_und2));
   }
 }
