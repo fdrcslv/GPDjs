@@ -25,15 +25,15 @@
 
 
 
-function Download(mode, etc){
+function Download(startindex){
 
 // importare Jquery
 var jqry = document.createElement('script');
 jqry.src = "https://code.jquery.com/jquery-3.3.1.min.js";
 document.getElementsByTagName('head')[0].appendChild(jqry);
-
+startindex = (startindex ? 1 : startindex);
 queue = [];
-counter = 1;
+counter = startindex;
 
 var q = function(){
   progress_bar('START', counter);
@@ -116,7 +116,7 @@ var t = function() {
   };
 
 function imnotarobot(){
-  for (var i=1; i<=71; i++){
+  for (var i=startindex; i<=71; i++){
     queue.push([q,1000],[w,500],[ww,500],[e,500],[r,500]);
     if(i>5){
       clicks = (Math.ceil(i/5) - 1);
