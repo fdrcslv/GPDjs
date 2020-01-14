@@ -1,6 +1,6 @@
 # GPDjs
 
-script di download automatico
+script di download automatico per https://mappe.comune.genova.it
 
 Il limite di geometrie scaricabili è 15000, è quindi necessario suddividere lo scaricamento in pacchetti, utilizzando le Unità Urbanistiche.
 
